@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Bogdan Basilescu</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_profession">Android Software Engineer</string>
+    <string name="nav_header_name">Bogdan Basilescu</string>
+
+    <string name="menu_by_phone">By Phone</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_social">Social</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_linkedIn">LinkedIn</string>
+    <string name="menu_pluralSight">Pluralsight</string>
+    <string name="menu_medium">Medium</string>
+
+    <string name="link_linkedIn">https://www.linkedin.com/in/bogdanbasilescu/</string>
+    <string name="link_facebook">https://www.facebook.com/bogdan.basilescu</string>
+    <string name="link_pluralsight">https://app.pluralsight.com/profile/bogdan-basilescu</string>
+    <string name="link_medium">https://medium.com/@bogdanbasilescu</string>
+
+    <!-- Menu -->
+    <string name="menu_get_cv">Get CV</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_by_email">By Email</string>
+
+    <!-- Placeholders -->
+    <string name="img_default_description">Image Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- MainActivity  -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_about_fragment">About</string>
+    <string name="title_experience_fragment">Experience</string>
+    <string name="title_projects_fragment">Projects</string>
+    <string name="title_skills_fragment">Skills</string>
+    <string name="title_hobbies_fragment">Hobbies</string>
+
+    <!-- AboutFragment -->
+    <string name="about_objective">Objective:</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_linkedIn"
+        android:icon="@drawable/ic_linked_in"
+        android:title="@string/menu_linkedIn" />
+    <item
+        android:id="@+id/nav_pluralSight"
+        android:icon="@drawable/ic_pluralsight"
+        android:title="@string/menu_pluralSight" />
+
+    <item
+        android:id="@+id/nav_medium"
+        android:icon="@drawable/ic_medium"
+        android:title="@string/menu_medium" />
+
+    <item android:title="@string/menu_social">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/menu_facebook" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_contact">
+        <menu>
+            <item
+                android:id="@+id/nav_by_phone"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/menu_by_phone" />
+            <item
+                android:id="@+id/nav_by_email"
+                android:icon="@drawable/ic_mail"
+                android:title="@string/menu_by_email" />
+        </menu>
+    </item>
+
+</menu>
