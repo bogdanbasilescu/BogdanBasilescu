@@ -26,7 +26,7 @@
     <string name="menu_download">Download</string>
     <string name="menu_by_email">By Email</string>
 
-    <!-- Placeholders -->
+    <!-- Content description -->
     <string name="img_default_description">Image Description</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

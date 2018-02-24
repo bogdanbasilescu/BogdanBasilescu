@@ -49,17 +49,17 @@ public class AboutPresenterImpl extends AbsPresenter<AboutContract.AboutView> im
 
     @Override
     public void getUser() {
-        //Mock user for now
-        User user = new User();
-        user.setName("Bogdan Basilescu");
-        user.setDescription("Knowledge harvester, public speaker addicted to success " +
-                "& driven to overcome anything.");
-        user.setObjective("I am eager to inspire, coordinate and " +
-                "motivate people in different projects in " +
-                "order to achieve success through hard " +
-                "work and dedication, therefore my " +
-                "professional goal for the next 3 years is " +
-                "to become a Product Manager.");
+        User user = aboutModel.getUser();
         getView().displayUser(user);
+    }
+
+    @Override
+    public void onProfilePhotoClicked() {
+        getView().displayProfilePhotoImgPicker();
+    }
+
+    @Override
+    public void getToast() {
+        getView().showToast();
     }
 }

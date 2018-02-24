@@ -1,19 +1,36 @@
 package ro.bbasilescu.bogdanbasilescu.presentation.usecases.skills;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.support.annotation.Nullable;
 
 import ro.bbasilescu.bogdanbasilescu.R;
+import ro.bbasilescu.bogdanbasilescu.presentation.mvp.view.AbsBaseFragmentView;
 
-public class SkillsFragment extends Fragment {
+public class SkillsFragment extends AbsBaseFragmentView<SkillsContract.SkillsPresenter> implements SkillsContract.SkillsView<SkillsContract.SkillsPresenter> {
+
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_skills, container, false);
+    public int getLayoutId() {
+        return R.layout.fragment_skills;
+    }
+
+    @Override
+    public SkillsContract.SkillsPresenter makePresenter() {
+        return new SkillsPresenterImpl(this);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    @Override
+    public void displaySkills() {
+
+    }
+
+    @Override
+    public void showToast() {
+
     }
 }

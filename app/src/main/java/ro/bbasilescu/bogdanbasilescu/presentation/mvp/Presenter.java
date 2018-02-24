@@ -3,6 +3,7 @@ package ro.bbasilescu.bogdanbasilescu.presentation.mvp;
 public interface Presenter<V extends View> {
     // Get reference to View
     V getView();
+
     // Manage component Lifecycle
     void onCreate();
 
@@ -13,4 +14,6 @@ public interface Presenter<V extends View> {
     void onPause();
 
     void onDestroy();
+
+    void getToast();
 }

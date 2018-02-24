@@ -8,9 +8,11 @@ public interface AboutContract {
 
     interface AboutPresenter<V extends View> extends Presenter<V> {
         void getUser();
+        void onProfilePhotoClicked();
     }
 
     interface AboutView<P extends Presenter> extends View<P> {
         void displayUser(User user);
+        void displayProfilePhotoImgPicker();
     }
 }
